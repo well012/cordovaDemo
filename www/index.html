@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+
+%>
+<html>
+<head>
+    <title>首页</title>
+    <script language="javascript">
+        //跳转到登录页面
+        //window.location.href = "<%=basePath%>hcqk/index.dhtml";
+        <!--window.location.href = "<%=basePath%>gotoLogin.html";-->
+    </script>
+</head>
+<body>
+<div>欢迎光临搭建的demo的cordova项目</div>
+</body>
+</html>
